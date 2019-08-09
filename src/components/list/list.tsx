@@ -32,7 +32,7 @@ export class List extends Component {
                     <div className="add-name">
                         <AddName/>
                     </div>
-                    <label>Filter for names
+                    <label>Filtered names from store
                         <input type='text' ref={this.inputName} onKeyUp={this.keyPress}/>
                     </label>
                     <ul>
@@ -52,6 +52,9 @@ export class List extends Component {
         } else {
             return (
                 <div className='list'>
+                    <div className="add-name">
+                        <AddName/>
+                    </div>
                     No data!
                 </div>
             );

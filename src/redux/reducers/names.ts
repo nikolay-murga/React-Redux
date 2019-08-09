@@ -1,7 +1,7 @@
 import { ACTION_TYPES } from '../store';
 
 const InitialState = {
-    names: ['InitialState'],
+    names: [],
     filter: ''
 };
 
